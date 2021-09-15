@@ -71,11 +71,13 @@ a:hover {
     -o-background-size: auto!important;
     background-size: auto!important;
 }
-
+.italic-text{
+    
+    font-style: oblique;
+}
 .bg-repeat {
     background: repeat;
 }
-
 .bg-t-edge {
     background: top no-repeat;
 }
