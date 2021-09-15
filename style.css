@@ -3,7 +3,7 @@ body {
     padding: 0;
     background: #FFF;
     overflow-x: hidden;
-    -webkit-font-smoothing: antialiased;
+
     -moz-osx-font-smoothing: grayscale;
 }
 
@@ -366,7 +366,39 @@ a .navbar-brand{
     position: relative;
     z-index: 2;
 }
-
+.col-sm-4{
+display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+footer ul{
+    
+    display: flex;
+}
+footer li{
+    margin-right: 15px;
+    margin-left: 15px;
+    
+}
+footer p{
+    font-size: 17px;
+}
+footer a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, .6);
+}
+.text-center{
+    padding: 8px;
+}
+footer p{
+    font-size: 17px;
+    color: white !important;
+    padding: 8px;
+}
+footer a:hover{
+    color: #FFFFFF;
+}
 @media (min-width: 768px) {
     .site-navigation {
         position: absolute;
@@ -656,7 +688,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 h2{
     font-weight: 500;
@@ -766,7 +798,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: #1f1d1da3;
     padding: 40px 40px 40px 40px;
 }
 
@@ -837,6 +869,7 @@ h4 {
 .bg-presentation {
     background-image: url("img/image-de-presentation.jpg");
 }
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -1042,11 +1075,18 @@ h4 {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 460px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
     }
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-right: 15px;
+    }
+        
 }
 
 @media (max-width: 767px) {
