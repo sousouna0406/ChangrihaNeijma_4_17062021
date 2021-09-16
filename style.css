@@ -346,7 +346,7 @@ a .navbar-brand {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
-  width: 30%;
+  width: 25%;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -907,7 +907,7 @@ h4 {
 }
 
 .bg-lines-h2-bg {
-  background-image: url("img/lines-h2-bg.jpg");
+  background-image: url("img/lines-h2-bg.webp");
 }
 
 .bg-banniere {
@@ -1058,7 +1058,7 @@ h4 {
   }
   .navbar-brand img {
     max-height: 40px;
-    margin: 0px 20px 20px 50px;
+    margin: 0px 20px 20px 67px;
     width: 55%;
   }
   .nav-invert .navbar-header {
