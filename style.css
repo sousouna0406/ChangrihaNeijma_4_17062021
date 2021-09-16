@@ -6,7 +6,7 @@ body {
 
   -moz-osx-font-smoothing: grayscale;
 }
-.star{
+.star {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@ body {
   font-size: 18px;
   padding: 10px;
 }
-.text-blanc{
+.text-blanc {
   color: white;
   font-size: 16px;
 }
@@ -170,7 +170,7 @@ a .navbar-brand {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-    color: #00000069;
+  color: #00000069;
 }
 
 .d-bloc .a-btn:hover,
@@ -420,13 +420,11 @@ footer li {
 }
 footer p {
   font-size: 17px;
-  
 }
 footer a {
   text-decoration: none;
   color: #00000069;
   font-size: 20px;
-  
 }
 .text-center {
   padding: 8px;
@@ -831,7 +829,7 @@ h4 {
 }
 
 .white {
-    color: black !important;
+  color: black !important;
 }
 
 .portfolio-thumb {
@@ -913,11 +911,11 @@ h4 {
 }
 
 .bg-banniere {
-  background-image: url("img/la-chouette-agence-banniere.jpg");
+  background-image: url("img/la-chouette-agence-banniere.webp");
 }
 
 .bg-presentation {
-  background-image: url("img/image-de-presentation.jpg");
+  background-image: url("img/image-de-presentation.webp");
 }
 
 @media (max-width: 1024px) {
