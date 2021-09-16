@@ -6,7 +6,18 @@ body {
 
   -moz-osx-font-smoothing: grayscale;
 }
-
+.star{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(248, 192, 8);
+  font-size: 18px;
+  padding: 10px;
+}
+.text-blanc{
+  color: white;
+  font-size: 16px;
+}
 .col-sm-6 a {
   letter-spacing: -1px;
 }
@@ -159,7 +170,7 @@ a .navbar-brand {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #00000069;
+    color: #00000069;
 }
 
 .d-bloc .a-btn:hover,
@@ -325,7 +336,6 @@ a .navbar-brand {
 }
 .navbar-brand {
   height: auto;
-  padding: 3px 15px;
   font-size: 25px;
   font-weight: normal;
   font-weight: 600;
@@ -336,6 +346,7 @@ a .navbar-brand {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
+  width: 35%;
 }
 
 .navbar-brand img[src$="svg"] {
@@ -409,11 +420,13 @@ footer li {
 }
 footer p {
   font-size: 17px;
+  
 }
 footer a {
   text-decoration: none;
   color: #00000069;
   font-size: 20px;
+  
 }
 .text-center {
   padding: 8px;
@@ -422,6 +435,7 @@ footer p {
   font-size: 17px;
   color: black !important;
   padding: 8px;
+  margin-left: -9px;
 }
 footer a:hover {
   color: #ffffff;
@@ -817,7 +831,7 @@ h4 {
 }
 
 .white {
-  color: black !important;
+    color: black !important;
 }
 
 .portfolio-thumb {
