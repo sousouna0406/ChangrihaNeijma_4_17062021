@@ -346,7 +346,7 @@ a .navbar-brand {
   max-height: 200px;
   margin: 0 5px 0 0;
   display: inline;
-  width: 35%;
+  width: 30%;
 }
 
 .navbar-brand img[src$="svg"] {
