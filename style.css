@@ -170,7 +170,7 @@ a .navbar-brand {
 .d-bloc h5 a,
 .d-bloc h6 a,
 .d-bloc p a {
-  color: #00000069;
+  color: black;
 }
 
 .d-bloc .a-btn:hover,
@@ -423,7 +423,7 @@ footer p {
 }
 footer a {
   text-decoration: none;
-  color: #00000069;
+  color: black;
   font-size: 20px;
 }
 .text-center {
