@@ -65,7 +65,7 @@ a:hover {
 }
 
 .bloc .container {
-  padding: 5px;
+  padding: 35px;
 }
 
 .bloc-lg {
@@ -428,7 +428,7 @@ footer a {
   padding: 8px;
 }
 footer p {
-  font-size: 17px;
+  font-size: 20px;
   color: black !important;
   padding: 8px;
   margin-left: -9px;
@@ -774,6 +774,8 @@ p {
 .tight-width-whitespace {
   max-width: 660px;
   margin: auto auto auto auto;
+  margin-top: 40px;
+    margin-bottom: 40px;
 }
 
 .h1 {
@@ -828,6 +830,7 @@ h4 {
 
 .white {
   color: black !important;
+  font-size: 20px;
 }
 
 .portfolio-thumb {
@@ -846,6 +849,8 @@ h4 {
 .black-background {
   background-color: #1f1d1da3;
   padding: 40px 40px 40px 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
 }
 
 .bold-link {
@@ -1043,7 +1048,9 @@ h4 {
     left: -1px;
     right: -1px;
   }
-
+  .bloc .container {
+    padding: 5px;
+  }
   .navbar-collapse {
     padding: 0;
     overflow-x: hidden;
